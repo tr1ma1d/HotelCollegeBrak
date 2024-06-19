@@ -56,6 +56,7 @@ namespace HotelCollege.ViewModel
             else if (number == 3)
             {
                 ServiceRoomWindow serviceRoomWindow = new ServiceRoomWindow();
+
                 serviceRoomWindow.Show();
                 Application.Current.MainWindow.Close();
             }
